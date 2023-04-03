@@ -1,0 +1,79 @@
+.navigation{
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    justify-content: end;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navigation >li{
+    list-style: none;
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin-right:30px ;
+}
+
+.jumbotron { 
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('jumbtron.jpg');
+    background-size: cover;
+}
+.jumbotron::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+
+.jumbotron h1{
+    position: relative;
+    color: #fff;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.jumbotron .btn-main{
+    background-color: #ffa95e;
+    color: #fff ;
+    padding: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+
+.services{
+    width: 90%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;
+    padding: 50px;
+  }
+.health-care{
+    text-align:left;
+}
+.heading{
+    text-align: center;
+height: 100px;
+display: block;
+}
+.btn-secondry{
+    border: 1px solid orange;
+color: orange;
+padding: 5px;
+text-decoration: none;
+}
